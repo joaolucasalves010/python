@@ -12,5 +12,5 @@ try:
   cursor.execute("INSERT INTO clientes (id, nome, email) VALUES (?,?,?)", (2, 'Teste3', 'teste3@gmail.com'))
   connection.commit()
 except Exception as exc:
-  print(f"Um erro ocorreu {exc}")
+  print(f"Um erro ocorreu {exc}") 
   connection.rollback()

@@ -3,6 +3,7 @@ from datetime import datetime
 from abc import ABC, abstractclassmethod, abstractproperty
 from pathlib import Path
 
+
 def log_transacao(function):
   def envelope(*args, **kwargs):
     resultado = function(*args, **kwargs)
