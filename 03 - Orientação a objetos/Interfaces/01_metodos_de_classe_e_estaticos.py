@@ -8,7 +8,6 @@ class Pessoa:
     idade = 2024 - ano
     return Pessoa(nome, idade)
 
-  @staticmethod
   def maior_idade(idade):
     if idade >= 18:
       return True
